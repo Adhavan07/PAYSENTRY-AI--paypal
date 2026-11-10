@@ -1,0 +1,19 @@
+@import 'ag-grid-community/styles/ag-grid.css';
+@import 'ag-grid-community/styles/ag-theme-quartz.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styling for dark-mode AG Grid */
+.ag-theme-quartz-dark {
+  --ag-background-color: #111827;
+  --ag-header-background-color: #0f172a;
+  --ag-odd-row-background-color: #111827;
+  --ag-row-border-color: #1f2937;
+  --ag-header-column-separator-color: #1f2937;
+  --ag-header-foreground-color: #94a3b8;
+  --ag-foreground-color: #f1f5f9;
+  --ag-border-color: #1f2937;
+  font-family: inherit;
+}
