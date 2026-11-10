@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: paysentry-ai
+    env: node
+    buildCommand: npm run setup && npm run build
+    startCommand: npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PAYPAL_MODE
+        value: sandbox
+      - key: DEMO_SIMULATION_MODE
+        value: true

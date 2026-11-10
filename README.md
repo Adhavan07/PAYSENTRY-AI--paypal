@@ -28,6 +28,8 @@ Small businesses and online merchants lose over $100 Billion annually to friendl
   * Agent 3: Autonomous Resolution Negotiator & Dossier Synthesizer
 * **Frontend & Sponsors:**
   * **AG Grid Enterprise/Community** for the high-performance live dispute queue & evidence matrix (Targeting the **$5,000 AG Grid Sponsor Cash Prize**)
+  * **Postman** collection included for rapid API testing (`PaySentry_PayPal_API.postman_collection.json`)
+  * **Render** blueprint included for 1-click cloud deployment (`render.yaml`)
   * React 18, Vite, Tailwind CSS, Lucide Icons
 * **Backend:**
   * Node.js, Express, Axios, Dotenv
