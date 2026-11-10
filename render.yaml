@@ -11,3 +11,4 @@ services:
         value: sandbox
       - key: DEMO_SIMULATION_MODE
         value: true
+
